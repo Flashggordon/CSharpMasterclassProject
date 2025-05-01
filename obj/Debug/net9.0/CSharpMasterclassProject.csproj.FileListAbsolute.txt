@@ -1,0 +1,15 @@
+/Users/georgegordon/repos/CSharpMasterclassProject/bin/Debug/net9.0/CSharpMasterclassProject
+/Users/georgegordon/repos/CSharpMasterclassProject/bin/Debug/net9.0/CSharpMasterclassProject.deps.json
+/Users/georgegordon/repos/CSharpMasterclassProject/bin/Debug/net9.0/CSharpMasterclassProject.runtimeconfig.json
+/Users/georgegordon/repos/CSharpMasterclassProject/bin/Debug/net9.0/CSharpMasterclassProject.dll
+/Users/georgegordon/repos/CSharpMasterclassProject/bin/Debug/net9.0/CSharpMasterclassProject.pdb
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.GeneratedMSBuildEditorConfig.editorconfig
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.AssemblyInfoInputs.cache
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.AssemblyInfo.cs
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.csproj.CoreCompileInputs.cache
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.sourcelink.json
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.dll
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/refint/CSharpMasterclassProject.dll
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.pdb
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/CSharpMasterclassProject.genruntimeconfig.cache
+/Users/georgegordon/repos/CSharpMasterclassProject/obj/Debug/net9.0/ref/CSharpMasterclassProject.dll
