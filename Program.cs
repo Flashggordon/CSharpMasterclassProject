@@ -190,33 +190,104 @@
 // };
 
 
+// using System.Linq.Expressions;
+// using System.Net;
+
+// int computerNumber = 69; 
+// int usersGuess = 0; 
+// int counter = 0; 
+
+// System.Console.WriteLine("Guess what number the computer is thinking of between 1-69:");
+// usersGuess = int.Parse(Console.ReadLine());
+
+
+// while (usersGuess != computerNumber ){
+
+//     if (usersGuess < computerNumber)
+//     {
+//         System.Console.WriteLine("your number was too low \r\n");
+//     }
+//     else if (usersGuess > computerNumber)
+//     {
+//         System.Console.WriteLine("your number was too high");
+//     }  
+// System.Console.WriteLine("sorry you will have to guess again");
+// counter ++; 
+// System.Console.WriteLine($"That was your {counter} guess");
+
+// usersGuess = int.Parse(Console.ReadLine());
+
+
+// }
+// System.Console.WriteLine($"Yes you got it!! huraay you guessed {counter} times");
+
+
+
+
+
+
+
 using System.Linq.Expressions;
-using System.Net;
 
-int computerNumber = 69; 
-int usersGuess = 0; 
-int counter = 0; 
+System.Console.WriteLine("Welcome to NIGHT OUT ADVENTURE!\r\n");
 
-System.Console.WriteLine("Guess what number the computer is thinking of between 1-69:");
-usersGuess = int.Parse(Console.ReadLine());
+System.Console.WriteLine("What is your character's name");
+string characterName = Console.ReadLine();
+
+System.Console.WriteLine($" {characterName}, you're on a night out. Everything’s great until someone chats up your girlfriend.");
+System.Console.WriteLine("Do you choose to FIGHT or FLEE? (Type: fight / flee)");
+string usersChoise = Console.ReadLine(); 
 
 
-while (usersGuess != computerNumber ){
+if (usersChoise == "flee")
+{
+System.Console.WriteLine("You wisely walk away. Your girlfriend smiles at your maturity.You both head home and watch Netflix in peace.  THE END.");
+}
 
-    if (usersGuess < computerNumber)
+else if (usersChoise == "fight")
+{
+    System.Console.WriteLine("You step up to fight! Prepare yourself...");
+
+  System.Console.WriteLine("Fight begins in ... 3");
+System.Threading.Thread.Sleep(1000);
+
+System.Console.WriteLine("Fight begins in ... 2");
+System.Threading.Thread.Sleep(1000);
+
+System.Console.WriteLine("Fight begins in ... 1");
+System.Threading.Thread.Sleep(1000);
+
+
+System.Console.WriteLine( "(ง •̀_•́)ง" + "Lets do this\r\n");
+System.Threading.Thread.Sleep(1000);
+
+System.Console.WriteLine("(ง •̀_•́)ง" +  "You're going down!\r\n");
+System.Threading.Thread.Sleep(1000);
+
+System.Console.WriteLine("(╯°□°）╯︵ ┻━┻" + "POW\r\n");
+System.Threading.Thread.Sleep(1000);
+
+System.Console.WriteLine(" ᕦ(ò_óˇ)ᕤ " + "SMASH");
+System.Threading.Thread.Sleep(1000);
+
+
+Random randomNumber = new Random();
+int luck = randomNumber.Next(1, 11);
+
+if (luck > 5)
+{
+  System.Console.WriteLine($"You KO’d the guy! Your girlfriend swoons.\r\nWell done {characterName}.\r\nYou and your girlfriend find a Delirium Tremens beer on the floor.\r\nYou drink it. It's weirdly cold... but amazing.\r\nThe night becomes a blur of dancing, laughter, and kebabs.\r\nWhat a night!\r\nTHE END.");
+
+}
+
+
+    else 
     {
-        System.Console.WriteLine("your number was too low \r\n");
+        System.Console.WriteLine($"You got knocked out cold, {characterName} \r\n Maybe next time don't pick fights in nightclubs.");
+        
     }
-    else if (usersGuess > computerNumber)
-    {
-        System.Console.WriteLine("your number was too high");
-    }
-System.Console.WriteLine("sorry you will have to guess again");
-counter ++; 
-System.Console.WriteLine($"That was your {counter} guess");
-
-usersGuess = int.Parse(Console.ReadLine());
 
 
 }
-System.Console.WriteLine($"Yes you got it!! huraay you guessed {counter} times");
+
+
